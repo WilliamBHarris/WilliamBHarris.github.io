@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@200&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg" href="/assets/favicon.svg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -22,25 +29,14 @@
   </head>
   <body>
     <!-- Nav Bar Start -->
-    <nav
-      id="topNav"
-      class="navbar fixed-top navbar-expand-lg navbar-light bg-light"
-    >
+    <nav id="navFlex" class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a id="navLogo" class="navbar-brand" href="#">Will Harris</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
+        <a id="navLogo" class="navbar-brand" href="#"><span id="yLogo">Will</span> Harris</a>
+        <button id="navEdit" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul id="navFlex" class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul id="navLinks" class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -48,7 +44,7 @@
               <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Work</a>
+              <a class="nav-link" href="#">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
@@ -62,62 +58,101 @@
     <!-- Main section start -->
     <div id="mainSection" class="container-fluid">
       <div class="boxOne">
-        <div class="boxOneContent">
-          <h1>Web Developer</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-            odio vero dicta mollitia natus doloribus consequuntur nam dolor
-            culpa quasi maiores non amet, illo neque dolorem, ratione eum
-            quaerat vel veniam
-          </p>
-        </div>
+        <div class="container-fluid boxOneContent">
+          <div class="borderDesign"><h1>Student</h1>
+          <p class="mt-5">Striving for continual growth in web development and UX/UI design. </p>
+        </div></div>
       </div>
       <div class="boxTwo">
-        <div class="boxTwoContent">
-          <h1>Some type of image</h1>
+        <div class="container-fluid boxTwoContent">
+          <img id="faceIMG" src="/assets/Face.png" alt="" srcset="">
         </div>
       </div>
-      
+      <div id="floats" class="circleA"></div>
+      <div id="floats" class="circleB"></div>
+      <div id="floats" class="circleC"></div>
+      <div id="floats" class="circleD"></div>
+      <div id="floats" class="circleE"></div>
+      <div id="floats" class="circleF"></div>
+      <div id="floats" class="circleG"></div>
+      <div id="floats" class="circleH"></div>
+      <div id="floats" class="circleI"></div>
+      <img class="spacer" src="/assets/wave-haikei.svg" alt="" />
     </div>
 
     <!-- END OF MAIN SECTION -->
-    <img class="spacer" src="/assets/wave-haikei.svg">
+
     <!-- ABOUT ME SECTION START -->
     <section id="aboutMeSection" class="container-fluid">
-      <div class="container-fluid title">
-        <h1>About Me<span class="bigPeriod">.</span></h1>
+        <h1 class="aboutTitle">About Me.</h1>      
+      <div class="container-fluid aboutInfo">
+        <div class="wordwrap">
+            <h3 class="test1">I'm Will, currently learning web development at Eleven Fifty Academy right here in the home of the Hoosiers, Indianapolis, Indiana.  </h3>
+            
+            <p class="test1">I’ve spent the past 15+ years working in a high paced, manual labor environment. Now, I'm working towards continual growth in a developer environment. HTML, CSS, and Javascript are now my best friends. But, we are still getting to know each other.
+  
+              These days my time is spent researching, re-researching, and coding. I also just might watch some sports here and there.
+              
+              Out of my house you’ll find me dreaming of travel, strength training, and being distracted by every dog I see.</p>
+            </div>
+            <img id="aboutShow" src="/assets/aboutImg.png">
+          </div>
+          
       </div>
-      <div class="d-flex justify-items-center container-fluid aboutInfo">
-        <p class="aboutWill">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
-          nostrum et totam a dignissimos modi voluptate, culpa molestiae ad quia
-          cumque repellat odit sint esse animi tempora facere dolore. Error
-          sequi facilis adipisci soluta hic eum odit tempora repellat suscipit
-          non quas consequatur commodi fugiat, voluptatum eaque vel qui quo.
-        </p>
       </div>
+      
+      <div id="floats" class="circleA"></div>
+      <div id="floats" class="circleB"></div>
+      <div id="floats" class="circleC"></div>
+      <div id="floats" class="circleD"></div>
+      <div id="floats" class="circleE"></div>
+      <div id="floats" class="circleF"></div>
+      <div id="floats" class="circleG"></div>
+      <div id="floats" class="circleH"></div>
+      <div id="floats" class="circleI"></div>
+      <img class="spacer2" src="/assets/border2.png" alt="" />
     </section>
     <!-- ABOUT ME SECTION END -->
-    <img class="spacer" src="/assets/graywave.svg" alt="">
+    
     <!-- PROJECTS SECTION START -->
     <section id="projects" class="container-fluid">
-      <div class="container-fluid protitle">
-        <h1>My Work<span class="bigPeriod2">.</span></h1>
+      <div class="container-fluid">
+        <h1 class="aboutTitle">My Work.</h1>
       </div>
-
+      <div id="floats" class="circleA"></div>
+      <div id="floats" class="circleB"></div>
+      <div id="floats" class="circleC"></div>
+      <div id="floats" class="circleD"></div>
+      <div id="floats" class="circleE"></div>
+      <div id="floats" class="circleF"></div>
+      <div id="floats" class="circleG"></div>
+      <div id="floats" class="circleH"></div>
+      <div id="floats" class="circleI"></div>
+      <img class="spacer" src="/assets/border3.png" alt="">
     </section>
     <!-- PROJECTS SECTION END -->
-    <img class="spacer" src="/assets/wave-haikei.svg">
+
     <!-- CONTACT START -->
     <section id="contact" class="container-fluid">
-      <div class="container-fluid title">
-        <h1>Contact<span class="bigPeriod">.</span></h1>
+      <div class="container-fluid">
+        <h1 class="aboutTitle">Contact.</h1>
       </div>
+      <div id="floats" class="circleA"></div>
+      <div id="floats" class="circleB"></div>
+      <div id="floats" class="circleC"></div>
+      <div id="floats" class="circleD"></div>
+      <div id="floats" class="circleE"></div>
+      <div id="floats" class="circleF"></div>
+      <div id="floats" class="circleG"></div>
+      <div id="floats" class="circleH"></div>
+      <div id="floats" class="circleI"></div>
     </section>
     <!-- CONTACT END -->
     <!-- FOOTER -->
     <footer id="footer" class="container-fluid">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quidem doloribus deleniti iste quo at odit consequuntur quaerat odio officia nemo corrupti magni, ex, dolorem eveniet, sequi numquam vero illum!</p>
+      <p>
+        Copyright 2021. Will Harris
+      </p>
     </footer>
 
     <!-- script tags -->
