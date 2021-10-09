@@ -41,13 +41,13 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#aboutMeSection">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -110,15 +110,30 @@
       <div id="floats" class="circleG"></div>
       <div id="floats" class="circleH"></div>
       <div id="floats" class="circleI"></div>
-      <img class="spacer2" src="/assets/border2.png" alt="" />
+      <img class="spacer" src="/assets/border2.png" alt="" />
     </section>
     <!-- ABOUT ME SECTION END -->
     
     <!-- PROJECTS SECTION START -->
-    <section id="projects" class="container-fluid">
-      <div class="container-fluid">
+    <section id="projects">
+      <div>
         <h1 class="aboutTitle">My Work.</h1>
       </div>
+      <section id="grid">
+        <div class="pro">
+          <h3>API Project #1</h3>
+          <a href="https://bharris010486.github.io/apiProject1/"><img src="/assets/img2.png" alt=""></a>
+        </div>
+        <div class="pro">
+          <h3>API Project #2</h3>
+          <a href="https://giphyapi-ac5d2.firebaseapp.com/"><img src="/assets/img1.png" alt="">
+        </div></a>
+        <div class="pro">
+          <h3>Static Website</h3>
+          <a href="https://bharris010486.github.io/staticWebsite/"><img src="/assets/img3.png" alt="">
+        </div></a>
+      </section>
+      <img class="workBG" src="/assets/workBG.png" alt="">
       <div id="floats" class="circleA"></div>
       <div id="floats" class="circleB"></div>
       <div id="floats" class="circleC"></div>
@@ -128,15 +143,32 @@
       <div id="floats" class="circleG"></div>
       <div id="floats" class="circleH"></div>
       <div id="floats" class="circleI"></div>
-      <img class="spacer" src="/assets/border3.png" alt="">
+      <img id="bbord" class="spacer" src="/assets/border3.png" alt="">
     </section>
     <!-- PROJECTS SECTION END -->
 
     <!-- CONTACT START -->
     <section id="contact" class="container-fluid">
-      <div class="container-fluid">
+      <div>
         <h1 class="aboutTitle">Contact.</h1>
       </div>
+      <div id="formResize">
+      <div class="theForm">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqkwjwja" method="post">
+          <fieldset id="fs-frm-inputs">
+            <label for="full-name">Full Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last name" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="Your Email" required="">
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Talk to me!" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          </fieldset>
+          <input class="theSub" type="submit" value="Submit">
+        </form>
+      </div></div>
+      <img class="contactbg" src="/assets/contactbg.png" alt="">
+      <img class="contactbgR" src="/assets/contactbg.png" alt="">
       <div id="floats" class="circleA"></div>
       <div id="floats" class="circleB"></div>
       <div id="floats" class="circleC"></div>
@@ -149,13 +181,17 @@
     </section>
     <!-- CONTACT END -->
     <!-- FOOTER -->
-    <footer id="footer" class="container-fluid">
-      <p>
-        Copyright 2021. Will Harris
-      </p>
+    <footer id="footer">
+      <div class="footname" id="icon">
+        Made by: Will Harris
+      </div>
+      <a href="http://linkedIn.com"><i id="icon" class="fab fa-linkedin-in"></i></a>
+      <a href="http://github.com/bharris010486"><i id="icon" class="fab fa-github-square"></i></a>
+      <a id="iconBtn" href="/assets/William_Harris_update.PDF">Download Resume</a>
     </footer>
 
     <!-- script tags -->
+    <script src="https://kit.fontawesome.com/8b998f4e06.js" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/8b998f4e06.js"
       crossorigin="anonymous"
